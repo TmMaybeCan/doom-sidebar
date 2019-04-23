@@ -1,0 +1,66 @@
+body {
+    transition: background-color .7s;
+    padding: 0;
+    margin: 0;
+    background-color: #BD3612;
+    #sidebar-wrapper {
+        font-family: "Kodchasan", sans-serif;
+        font-size: 24px;
+        .sidebar-navigation {
+            width: 0;
+            position: fixed;
+            overflow-x: hidden;
+            padding-top: 60px;
+            z-index: 1;
+            height: 100%;
+            background-color: #111;
+            transition: width .7s;
+            a {
+                display: block;
+                padding: 10px 10px 10px 15px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #7a7a7a;
+                transition: all .4s;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .close-button {
+                position: absolute;
+                top: -9px;
+                right: 15px;
+                font-size: 35px;
+                margin-left: 50px;
+                padding: 0;
+            }
+        }
+        .main-content {
+            transition: margin-left .7s;
+            .show {
+                font-size: 25px;
+                cursor: pointer;
+                transition: all .4s;
+                padding-left: 10px;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .img-container {
+                background: url("https://www.dreadcentral.com/wp-content/uploads/2018/08/doometernalbanner1200x627.jpg") no-repeat;
+                background-size: 100% 100%;
+                height: 714px;
+            }
+            p {
+                padding: 0 5px 0 10px;
+            }
+            h3 {
+                padding-left: 10px;
+            }
+            .creepster {
+                font-family: "Creepster", cursive;
+                color: #F30528;
+            }
+        }
+    }
+}
