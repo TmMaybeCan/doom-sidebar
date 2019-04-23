@@ -1,0 +1,83 @@
+body {
+    -webkit-transition: background-color .7s;
+    transition: background-color .7s;
+    padding: 0;
+    margin: 0;
+    background-color: #BD3612;
+  }
+  
+  #sidebar-wrapper {
+    font-family: "Kodchasan", sans-serif;
+    font-size: 24px;
+  }
+  
+  #sidebar-wrapper .sidebar-navigation {
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 60px;
+    z-index: 1;
+    height: 100%;
+    background-color: #111;
+    -webkit-transition: width .7s;
+    transition: width .7s;
+  }
+  
+  #sidebar-wrapper .sidebar-navigation a {
+    display: block;
+    padding: 10px 10px 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7a7a7a;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  
+  #sidebar-wrapper .sidebar-navigation a:hover {
+    color: yellow;
+  }
+  
+  #sidebar-wrapper .sidebar-navigation .close-button {
+    position: absolute;
+    top: -9px;
+    right: 15px;
+    font-size: 35px;
+    margin-left: 50px;
+    padding: 0;
+  }
+  
+  #sidebar-wrapper .main-content {
+    -webkit-transition: margin-left .7s;
+    transition: margin-left .7s;
+  }
+  
+  #sidebar-wrapper .main-content .show {
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    padding-left: 10px;
+  }
+  
+  #sidebar-wrapper .main-content .show:hover {
+    color: yellow;
+  }
+  
+  #sidebar-wrapper .main-content .img-container {
+    background: url("https://www.dreadcentral.com/wp-content/uploads/2018/08/doometernalbanner1200x627.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 714px;
+  }
+  
+  #sidebar-wrapper .main-content p {
+    padding: 0 5px 0 10px;
+  }
+  
+  #sidebar-wrapper .main-content h3 {
+    padding-left: 10px;
+  }
+  
+  #sidebar-wrapper .main-content .creepster {
+    font-family: "Creepster", cursive;
+    color: #F30528;
+  }
